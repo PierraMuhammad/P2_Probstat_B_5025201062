@@ -82,10 +82,13 @@ Berdasarkan plot kuantil normal di atas, tidak ditemukan outlier utama pada homo
 ![Gambar8.PNG](img/Gambar8.PNG)
 
 <h2>c.</h2>
+
 ![Gambar9.PNG](img/Gambar9.PNG)
+
 <h2>d.</h2>
 Nilai P adalah 0.0013, kurang dari 0.005 sehingga H0 ditolak<br>
 <h2>f.</h2>
+
 ![Gambar10.PNG](img/Gambar10.PNG)<br>
 
 <h1>5</h1>

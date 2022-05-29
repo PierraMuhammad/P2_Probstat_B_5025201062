@@ -2,7 +2,7 @@
 # P2_Probstat_B_5025201062
 <h1>1</h1>
 <h2>a. Carilah Standar Deviasi dari data selisih pasangan pengamatan tabel diatas</h2>
-```
+```c
 n = 9
 orang = c(seq(1:n))
 x = c(78, 75, 67, 77, 70, 72, 78, 74, 77)
@@ -15,7 +15,7 @@ print(standardev)
 ![Gambar1.PNG](img/Gambar1.PNG)
 
 <h2>b. carilah nilai t (p-value)</h2>
-```
+```c
 mu = 0
 xbar = mean(selisih)
 t =((xbar - mu) / (standardev/sqrt(n)))
@@ -24,7 +24,7 @@ print(pvalue)
 ```
 ![Gambar2.PNG](img/Gambar2.PNG)
 <h2>c. pengaruh kadar oksigen sebelum dan sesudah aktivitas A</h2>
-```
+```c
 t.test(x=tabel$y, 
        y=tabel$x,
        alternative = "two.sided", 
